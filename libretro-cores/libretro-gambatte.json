@@ -3,17 +3,17 @@
             "no-autogen": true,
             "make-args": [
                 "prefix=/app",
-                "core_installdir=/app/lib/retro-1.0/plugins"
+                "core_installdir=/app/lib/libretro"
             ],
             "make-install-args": [
                 "prefix=/app",
-                "core_installdir=/app/lib/retro-1.0/plugins"
+                "core_installdir=/app/lib/libretro"
             ],
             "post-install": [
                 /* TODO: Find a better folder */
                 /* TODO: Send that upstream */
-                "mkdir -p /app/lib/retro-1.0/plugins/",
-                "install -m644 -p gambatte_libretro.info /app/lib/retro-1.0/plugins/"
+                "mkdir -p /app/lib/libretro/",
+                "install -m644 -p gambatte_libretro.info /app/lib/libretro/"
             ],
             "sources": [
                 {

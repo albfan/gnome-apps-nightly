@@ -1,4 +1,4 @@
 include Makefile.libretro
 
 install:
-	install -p -m755 pcsx_rearmed_libretro.so $(DESTDIR)$(prefix)/lib/retro-1.0/plugins
+	install -p -m755 pcsx_rearmed_libretro.so $(DESTDIR)$(prefix)/lib/libretro

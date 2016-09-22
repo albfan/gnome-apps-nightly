@@ -13,8 +13,8 @@
             "post-install": [
                 /* TODO: Find a better folder */
                 /* TODO: Send that upstream */
-                "mkdir -p /app/lib/retro-1.0/plugins/",
-                "install -m644 -p pcsx_rearmed_libretro.info /app/lib/retro-1.0/plugins/"
+                "mkdir -p /app/lib/libretro/",
+                "install -m644 -p pcsx_rearmed_libretro.info /app/lib/libretro/"
             ],
             "sources": [
                 {

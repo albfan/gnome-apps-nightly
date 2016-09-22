@@ -3,19 +3,19 @@
             "no-autogen": true,
             "make-args": [
                 "prefix=/app",
-                "core_installdir=/app/lib/retro-1.0/plugins",
+                "core_installdir=/app/lib/libretro",
                 "profile=balanced"
             ],
             "make-install-args": [
                 "prefix=/app",
-                "core_installdir=/app/lib/retro-1.0/plugins",
+                "core_installdir=/app/lib/libretro",
                 "profile=balanced"
             ],
             "post-install": [
                 /* TODO: Find a better folder */
                 /* TODO: Send that upstream */
-                "mkdir -p /app/lib/retro-1.0/plugins/",
-                "install -m644 -p bsnes_balanced_libretro.info /app/lib/retro-1.0/plugins/"
+                "mkdir -p /app/lib/libretro/",
+                "install -m644 -p bsnes_balanced_libretro.info /app/lib/libretro/"
             ],
             "sources": [
                 {
