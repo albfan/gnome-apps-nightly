@@ -280,6 +280,15 @@
             ]
         },
         {
+            "name": "json-glib",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "git://git.gnome.org/json-glib"
+                }
+            ]
+        },
+        {
             "name": "sysprof",
             "config-opts": [ "--enable-gtk", "--with-sysprofd=host" ],
             "cleanup": [ "/bin/*", "/libexec/sysprof", "/share/applications/*", "/share/mime/packages" ],
