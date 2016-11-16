@@ -273,6 +273,7 @@
         },
         {
             "name": "devhelp",
+            "config-opts": [ "--disable-compile-warnings" ],
             "cleanup": [ "/bin/*", "/lib/gedit/plugins", "/share/applications/*", "/share/dbus-1/services", "/share/GConf" ],
             "sources": [
                 {
