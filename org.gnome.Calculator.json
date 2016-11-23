@@ -26,9 +26,9 @@
                 "/share/pkgconfig", "/share/aclocal",
                 "/man", "/share/man", "/share/gtk-doc",
                 "/share/vala", "*.la", "*.a",
-                "/bin/gcalccmd", "/libexec/gnome-calculator-search-provider",
+                "/bin/gcalccmd",
                 "/lib/girepository-1.0", "/share/info", "/share/gtksourceview-3.0",
-                "/share/dbus-1", "/share/doc", "/share/gir-1.0", "/share/gnome-shell"
+                "/share/doc", "/share/gir-1.0"
     ],
     "modules": [
         {
