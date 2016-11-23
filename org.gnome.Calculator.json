@@ -56,7 +56,8 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/gtksourceview"
+                    "url": "git://git.gnome.org/gtksourceview",
+                    "branch": "gnome-3-24"
                 }
             ]
         },
