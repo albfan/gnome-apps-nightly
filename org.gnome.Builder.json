@@ -30,6 +30,7 @@
         "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
         /* We need access to auth agents */
         "--talk-name=org.freedesktop.secrets",
+	"--filesystem=xdg-run/keyring",
         /* Needed for various SSL certificates to work */
         "--env=SSL_CERT_DIR=/etc/ssl/certs",
         "--env=SSL_CERT_FILE=/etc/ssl/cert.pem",
