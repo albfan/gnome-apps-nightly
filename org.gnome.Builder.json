@@ -33,8 +33,8 @@
 	"--filesystem=xdg-run/keyring",
         /* Needed for various SSL certificates to work */
         "--env=SSL_CERT_DIR=/etc/ssl/certs",
-        "--env=SSL_CERT_FILE=/etc/ssl/cert.pem",
         "--filesystem=/etc/ssl:ro",
+        "--filesystem=/etc/pki:ro",
         "--filesystem=/etc/ca-certificates:ro",
         "--filesystem=/var/lib/flatpak"
     ],
