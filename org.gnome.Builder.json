@@ -29,10 +29,11 @@
         "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
         /* We need access to auth agents */
         "--talk-name=org.freedesktop.secrets",
+        "--filesystem=xdg-run/keyring",
         /* Needed for various SSL certificates to work */
         "--env=SSL_CERT_DIR=/etc/ssl/certs",
-        "--env=SSL_CERT_FILE=/etc/ssl/cert.pem",
         "--filesystem=/etc/ssl:ro",
+        "--filesystem=/etc/pki:ro",
         "--filesystem=/etc/ca-certificates:ro",
         "--filesystem=/var/lib/flatpak"
     ],
@@ -101,7 +102,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "branch": "cb180540a68da556254baf9019ad752438d53865",
+                    "branch": "af983c2b0674d3d3532d1827cc2d1ad8eb4ce88e",
                     "url": "https://github.com/flatpak/flatpak.git"
                 }
             ]
@@ -222,8 +223,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gtksourceview/3.22/gtksourceview-3.22.0.tar.xz",
-                    "sha256": "70657f48732427984dce6cc812bdd3f2b701c0a49e0a0a08889705b3dadcf8e5"
+                    "url": "https://download.gnome.org/sources/gtksourceview/3.22/gtksourceview-3.22.2.tar.xz",
+                    "sha256": "6a04360ca2e04a0c281b5fa80cca0f760f65fabb2dcbc71a0f53d90e7a7aa5cb"
                 }
             ]
         },
@@ -277,9 +278,9 @@
             "cleanup": [ "/bin/*", "/libexec/sysprof" ],
             "sources": [
                 {
-                    "type": "git",
-                    "url": "git://git.gnome.org/sysprof.git",
-                    "branch": "71e1134cbce95ecf8b9dee1d3a1c4328419a2aec"
+                    "type": "archive",
+                    "sha256": "e6dca325b3014440f457a92db18ffe342a35888db3f0756694a99b9652796367",
+                    "url": "https://download.gnome.org/sources/sysprof/3.22/sysprof-3.22.3.tar.xz"
                 }
             ]
         },
@@ -287,10 +288,9 @@
             "name": "gnome-builder",
             "sources": [
                 {
-                    "type": "git",
-                    "url": "git://git.gnome.org/gnome-builder.git",
-		    /* tagged for flatpak subprocess fix */
-                    "branch": "4e2f30405d55a3e4bd7278655ca2fa3f01a9c27f"
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/gnome-builder/3.22/gnome-builder-3.22.3.tar.xz",
+                    "sha256": "6a04360ca2e04a0c281b5fa80cca0f760f65fabb2dcbc71a0f53d90e7a7aa5cb"
                 }
             ]
         }
