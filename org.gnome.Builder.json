@@ -79,7 +79,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "branch": "056ca71a3b96e21d9e573b41ed83f5fa4bd118b2",
+                    "branch": "d3f14f02e3d9f7259c7ec6b25980ae43f03c4906",
                     "url": "https://github.com/ostreedev/ostree.git"
                 }
             ]
