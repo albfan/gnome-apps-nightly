@@ -224,7 +224,7 @@
                 {
                     "type": "archive",
                     "url": "https://download.gnome.org/sources/gtksourceview/3.22/gtksourceview-3.22.2.tar.xz",
-                    "sha256": "6a04360ca2e04a0c281b5fa80cca0f760f65fabb2dcbc71a0f53d90e7a7aa5cb"
+                    "sha256": "6ce84231dd0931cc747708434ca2f344c65a092dd6e1a800283fe0748773af5e"
                 }
             ]
         },
