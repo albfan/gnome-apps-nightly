@@ -62,9 +62,25 @@
         },
         {
             "name": "evolution-data-server",
-            "cleanup": ["/lib/evolution-data-server/*-backends", "/libexec", "/share/dbus-1/services" ],
-            "config-opts": ["--disable-google-auth",
-                            "--disable-uoa", "--disable-google", "--disable-weather" ],
+            "cleanup": [
+                "/lib/cmake",
+                "/lib/evolution-data-server/*-backends",
+                "/libexec",
+                "/share/dbus-1/services"
+	    ],
+            "config-opts": [
+                "-DENABLE_GTK=ON",
+                "-DENABLE_GOOGLE_AUTH=OFF",
+                "-DENABLE_UOA=OFF",
+                "-DENABLE_GOOGLE=OFF",
+                "-DENABLE_VALA_BINDINGS=ON",
+                "-DENABLE_WEATHER=OFF",
+                "-DWITH_OPENLDAP=OFF",
+                "-DENABLE_INTROSPECTION=ON",
+                "-DENABLE_INSTALLED_TESTS=OFF",
+                "-DENABLE_GTK_DOC=OFF",
+                "-DENABLE_EXAMPLES=OFF"
+            ],
             "cmake": true,
             "sources": [
                 {
