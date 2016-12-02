@@ -41,8 +41,9 @@
             "config-opts": ["--disable-telepathy", "--disable-documentation", "--disable-backend"],
             "sources": [
                 {
-                    "type": "git",
-                    "url": "git://git.gnome.org/gnome-online-accounts"
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/gnome-online-accounts/3.22/gnome-online-accounts-3.22.2.tar.xz",
+                    "sha256": "af56ca5af542592546f4569c05198ff39645e76ffc8de3c96120db8d0246433a"
                 }
             ]
         },
@@ -67,8 +68,9 @@
                             "--disable-uoa", "--disable-google", "--disable-weather" ],
             "sources": [
                 {
-                    "type": "git",
-                    "url": "git://git.gnome.org/evolution-data-server"
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/evolution-data-server/3.22/evolution-data-server-3.22.2.tar.xz",
+                    "sha256": "c0498e0968a60c3e42d5f72416c6e36752bced73bb530aa028dbd0008efd2167"
                 }
             ]
         },
@@ -76,8 +78,9 @@
             "name": "gnome-calendar",
             "sources": [
                 {
-                    "type": "git",
-                    "url": "git://git.gnome.org/gnome-calendar"
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/gnome-calendar/3.22/gnome-calendar-3.22.1.tar.xz",
+                    "sha256": "e6a3670c63122c4b37fbe243a54486e019c1bfd9a27c709234fb81b9e0c13360"
                 }
             ]
         }
