@@ -64,6 +64,16 @@
                     "sha256": "968774cc07ea0d3c27ac552dc0f1d51cf682b9036d342b447688a208f31a5be3"
                 }
             ]
+        },
+        {
+            "name": "eog-plugins",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/eog-plugins/3.16/eog-plugins-3.16.5.tar.xz",
+                    "sha256": "9de42235cc7dabc4e4b228c1a27ead4ee386cf5a3cc75fdb7ea12355d408108a"
+                }
+            ]
         }
     ]
 }
