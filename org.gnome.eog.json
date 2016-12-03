@@ -54,11 +54,19 @@
         },
         {
             "name": "eog",
-            "config-opts": [ ],
             "sources": [
                 {
                     "type": "git",
                     "url": "git://git.gnome.org/eog"
+                }
+            ]
+        },
+        {
+            "name": "eog-plugins",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "git://git.gnome.org/eog-plugins"
                 }
             ]
         }
