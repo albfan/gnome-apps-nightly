@@ -6,8 +6,6 @@
     "command": "geary",
     "tags": ["nightly"],
     "desktop-file-name-prefix": "(Nightly) ",
-    "rename-desktop-file": "geary.desktop",
-    "rename-appdata-file": "geary.appdata.xml",
     "rename-icon": "geary",
     "copy-icon": true,
     "finish-args": [
