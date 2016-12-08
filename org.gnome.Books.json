@@ -74,8 +74,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://netix.dl.sourceforge.net/project/liboauth/liboauth-1.0.3.tar.gz",
-                    "sha256": "0df60157b052f0e774ade8a8bac59d6e8d4b464058cc55f9208d72e41156811f"
+                    "url": "https://download.gnome.org/sources/libgdata/0.17/libgdata-0.17.6.tar.xz",
+                    "sha256": "8b6a3ff1db23bd9e5ebbcc958b29b769a898f892eed4798222d562ba69df30b0"
                 }
             ]
         },
