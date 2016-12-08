@@ -80,7 +80,6 @@
             ]
         },
         {
-            /* we need rest-0.7 so we use a tarball for it */
             "name": "librest",
             "sources": [
                 {
