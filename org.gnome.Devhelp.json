@@ -30,7 +30,7 @@
     "modules": [
         {
             "name": "devhelp",
-            "config-opts": ["--disable-man-pages"],
+            "config-opts": ["--disable-man-pages", "--disable-Werror"],
             "sources": [
                 {
                     "type": "git",
