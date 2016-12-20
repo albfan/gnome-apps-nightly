@@ -90,8 +90,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-todo/3.20/gnome-todo-3.20.2.tar.xz",
-                    "sha256": "6e0452733789b0a4d2f44f9870bdba6aa4c4190615627bacf6e40e8ec9a47519"
+                    "url": "https://download.gnome.org/sources/gnome-todo/3.22/gnome-todo-3.22.1.tar.xz",
+                    "sha256": "cb80f64f5edeeac7b221146d2203bd1bebc49d275b7a41e7a5418f409d9c74af"
                 }
             ]
         }
