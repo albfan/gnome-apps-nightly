@@ -32,7 +32,7 @@
         "--talk-name=org.freedesktop.FileManager1",
         /* We need access to auth agents */
         "--talk-name=org.freedesktop.secrets",
-	"--filesystem=xdg-run/keyring",
+        "--filesystem=xdg-run/keyring",
         /* Needed for various SSL certificates to work */
         "--env=SSL_CERT_DIR=/etc/ssl/certs",
         "--filesystem=/etc/ssl:ro",
