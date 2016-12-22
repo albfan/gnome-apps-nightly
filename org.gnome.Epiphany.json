@@ -82,6 +82,7 @@
         },
         {
             "name": "epiphany",
+            "config-opts": ["--disable-Werror"],
             "sources": [
                 {
                     "type": "git",
