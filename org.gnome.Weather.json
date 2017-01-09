@@ -4,6 +4,7 @@
     "runtime-version": "master",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-weather",
+    "rename-appdata-file": "org.gnome.Weather.Application.appdata.xml",
     "tags": ["nightly"],
     "finish-args": [
         /* X11 + XShm access */
