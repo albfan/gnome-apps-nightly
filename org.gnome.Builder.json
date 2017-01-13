@@ -301,6 +301,17 @@
             ]
         },
         {
+            "name": "gspell",
+            "config-opts": [ "--disable-gtk-doc", "--disable-gtk-doc-html" ],
+            "cleanup": [ "/include", "/lib/pkgconfig", "*.la", "/share" ],
+            "sources": [
+                {
+                     "type": "git",
+                     "url": "git://git.gnome.org/gspell"
+                }
+            ]
+        },
+        {
             "name": "sysprof",
             "config-opts": [ "--enable-gtk", "--with-sysprofd=host" ],
             "cleanup": [ "/bin/*", "/libexec/sysprof", "/share/applications/*", "/share/mime/packages" ],
