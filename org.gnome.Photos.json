@@ -50,6 +50,15 @@
             ]
         },
         {
+            "name": "geocode-glib",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "git://git.gnome.org/geocode-glib"
+                }
+            ]
+        },
+        {
             /* required by libgfbgraph */
             /* we need rest-0.7 so we use a tarball for it */
             "name": "librest",
