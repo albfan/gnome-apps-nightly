@@ -130,9 +130,8 @@
             "cleanup": [ "/bin", "/share/doc" ],
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "http://www.libraw.org/data/LibRaw-0.17.0.tar.gz",
-                    "sha256": "e643c20945d548aac1eaa1f5573bf74050e0f49ec6a53a6843dc2a2cfb647310"
+                    "type": "git",
+                    "url": "https://github.com/LibRaw/LibRaw.git",
                 }
             ]
         },
