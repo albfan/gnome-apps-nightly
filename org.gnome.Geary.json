@@ -1,7 +1,9 @@
 {
     "app-id": "org.gnome.Geary",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "master",
+    /* Depend on 3.22 instead of master due to
+     * 2.15 WebKit2WebExtension-4.0.gir issue. */
+    "runtime-version": "3.22",
     "sdk": "org.gnome.Sdk",
     "command": "geary",
     "tags": ["nightly"],
