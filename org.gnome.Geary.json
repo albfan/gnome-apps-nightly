@@ -77,9 +77,8 @@
             },
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "https://download.gnome.org/sources/libgee/0.18/libgee-0.18.0.tar.xz",
-                    "sha256": "4ad99ef937d071b4883c061df40bfe233f7649d50c354cf81235f180b4244399"
+                    "type": "git",
+                    "url": "https://git.gnome.org/libgee"
                 }
             ]
         },
@@ -87,9 +86,9 @@
             "name": "gmime",
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "https://download.gnome.org/sources/gmime/2.6/gmime-2.6.20.tar.xz",
-                    "sha256": "e0a170fb264c2ae4cecd852f4e7aaddb8d58e8f3f0b569ce2d2a4704f55bdf65"
+                    "type": "git",
+                    "url": "https://git.gnome.org/gmime",
+                    "branch": "gmime-2-6"
                 }
             ]
         },
@@ -98,7 +97,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/geary"
+                    "url": "https://git.gnome.org/geary",
                 }
             ]
         }
