@@ -78,7 +78,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://git.gnome.org/libgee"
+                    "url": "https://git.gnome.org/browse/libgee"
                 }
             ]
         },
@@ -87,7 +87,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://git.gnome.org/gmime",
+                    "url": "https://git.gnome.org/browse/gmime",
                     "branch": "gmime-2-6"
                 }
             ]
@@ -97,7 +97,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://git.gnome.org/geary"
+                    "url": "https://git.gnome.org/browse/geary"
                 }
             ]
         }
