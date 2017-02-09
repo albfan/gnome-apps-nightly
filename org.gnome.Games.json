@@ -38,6 +38,7 @@
     ],
     "modules": [
         /* Emulator cores for libretro
+
            We build them first, because some of them are very big, and they
            change more rarely than the rest of the modules. */
         "libretro-cores/libretro-bsnes.json",
@@ -53,8 +54,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://git.gnome.org/browse/retro-gtk/snapshot/retro-gtk-0.8.tar.xz",
-                    "sha256": "28b1974445618245768e22667a80b5fc18f67f881fbd88738e4521d3117d0f20"
+                    "url": "https://git.gnome.org/browse/retro-gtk/snapshot/retro-gtk-0.8.1.tar.xz",
+                    "sha256": "ed9976bb2eff191be0d0d1f4450bdf51cbe1c9b6156b95088acdf383b61c8087"
                 }
             ]
         },
@@ -119,8 +120,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://www.freedesktop.org/software/libevdev/libevdev-1.5.4.tar.xz",
-                    "sha256": "11fe76d62cc76fbc9dbf8e94696a80eee63780139161e5cf54c55ec21a8173a4"
+                    "url": "https://www.freedesktop.org/software/libevdev/libevdev-1.5.6.tar.xz",
+                    "sha256": "ecec7e9d66b1d3692f10b3b20aa97fb25e874a784c5552a7b1698091fef5a688"
                 }
             ]
         },
@@ -128,9 +129,9 @@
             "name": "gnome-games",
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "https://git.gnome.org/browse/gnome-games/snapshot/gnome-games-3.22.0.tar.xz",
-                    "sha256": "d0bd820db75bab058e5e555209bddafc2f98051be0002f2fca4969f14a58b7b0"
+                    "type": "git",
+                    "url": "https://git.gnome.org/browse/gnome-games",
+                    "branch": "d1cde2b39c54d74a92b547c4992a659d15c1d09a"
                 }
             ]
         }
