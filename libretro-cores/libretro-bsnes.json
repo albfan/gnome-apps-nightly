@@ -15,7 +15,7 @@
                 /* TODO: Find a better folder */
                 /* TODO: Send that upstream */
                 "mkdir -p /app/lib/libretro/",
-                "install -m644 -p bsnes_balanced_libretro.info /app/lib/libretro/"
+                "install -m644 -p bsnes_balanced.libretro /app/lib/libretro/"
             ],
             "sources": [
                 {
@@ -25,7 +25,7 @@
                 },
                 {
                     "type": "file",
-                    "path": "libretro-cores/bsnes_balanced_libretro.info"
+                    "path": "libretro-cores/bsnes_balanced.libretro"
                 }
             ]
         }

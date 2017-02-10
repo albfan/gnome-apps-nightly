@@ -14,7 +14,7 @@
                 /* TODO: Find a better folder */
                 /* TODO: Send that upstream */
                 "mkdir -p /app/lib/libretro/",
-                "install -m644 -p nestopia_libretro.info /app/lib/libretro/"
+                "install -m644 -p nestopia.libretro /app/lib/libretro/"
             ],
             "sources": [
                 {
@@ -23,8 +23,8 @@
                 },
                 {
                     "type": "file",
-                    "path": "libretro-cores/nestopia_libretro.info",
-                    "dest-filename": "libretro/nestopia_libretro.info"
+                    "path": "libretro-cores/nestopia.libretro",
+                    "dest-filename": "libretro/nestopia.libretro"
                 }
             ]
         }

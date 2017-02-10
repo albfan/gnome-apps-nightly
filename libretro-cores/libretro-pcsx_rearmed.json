@@ -14,7 +14,7 @@
                 /* TODO: Find a better folder */
                 /* TODO: Send that upstream */
                 "mkdir -p /app/lib/libretro/",
-                "install -m644 -p pcsx_rearmed_libretro.info /app/lib/libretro/"
+                "install -m644 -p pcsx_rearmed.libretro /app/lib/libretro/"
             ],
             "sources": [
                 {
@@ -29,7 +29,7 @@
                 },
                 {
                     "type": "file",
-                    "path": "libretro-cores/pcsx_rearmed_libretro.info"
+                    "path": "libretro-cores/pcsx_rearmed.libretro"
                 }
             ]
         }

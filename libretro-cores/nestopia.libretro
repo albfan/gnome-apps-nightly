@@ -1,0 +1,21 @@
+[Libretro]
+Type=Emulator
+Version=1.0
+Name=Nestopia UE
+Module=nestopia_libretro.so
+LibretroVersion=1
+Authors=Martin Freij;R. Belmont;R. Danbrook;
+License=GPL-2.0+;
+
+[Platform:NintendoEntertainmentSystem]
+MimeType=application/x-nes-rom;
+Firmwares=FamicomDiskSystem;
+
+[Platform:FamicomDiskSystem]
+MimeType=application/x-fds-disk;
+Firmwares=FamicomDiskSystem;
+
+[Firmware:FamicomDiskSystem]
+Path=disksys.rom
+MD5=ca30b50f880eb660a320674ed365ef7a
+Mandatory=true
