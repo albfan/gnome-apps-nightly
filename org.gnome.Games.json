@@ -70,9 +70,9 @@
             ],
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "https://download.gnome.org/sources/grilo/0.3/grilo-0.3.2.tar.xz",
-                    "sha256": "f26f684a5d76aea8dbce136750bc67d2170b36575f109292fbb78ae99ec87f5b"
+                    "type": "git",
+                    "url": "https://git.gnome.org/browse/grilo",
+                    "branch": "6ffe44554fe4abd4f21e35497133c1ebe02482af"
                 }
             ],
             "cleanup": [ "/include", "/bin" ]
@@ -129,9 +129,9 @@
             "name": "gnome-games",
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://git.gnome.org/browse/gnome-games",
-                    "branch": "d1cde2b39c54d74a92b547c4992a659d15c1d09a"
+                    "type": "archive",
+                    "url": "https://git.gnome.org/browse/gnome-games/snapshot/gnome-games-3.22.0.tar.xz",
+                    "sha256": "d0bd820db75bab058e5e555209bddafc2f98051be0002f2fca4969f14a58b7b0"
                 }
             ]
         }
