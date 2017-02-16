@@ -9,7 +9,6 @@ License=GPL-2.0+;
 
 [Platform:NintendoEntertainmentSystem]
 MimeType=application/x-nes-rom;
-Firmwares=FamicomDiskSystem;
 
 [Platform:FamicomDiskSystem]
 MimeType=application/x-fds-disk;
@@ -18,4 +17,5 @@ Firmwares=FamicomDiskSystem;
 [Firmware:FamicomDiskSystem]
 Path=disksys.rom
 MD5=ca30b50f880eb660a320674ed365ef7a
+SHA-512=d7692af63b107b7e79ccf0d90e5ff7e70325e3196a41b6d4d83aaf8ffa5ca976351f8f31bcb1d497c02f7c699e94e77c27a0813f72aa96b576685acaae5bdad5
 Mandatory=true
