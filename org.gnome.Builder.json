@@ -210,7 +210,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/libgit2/libgit2.git",
-                    "branch": "maint/v0.24"
+                    "branch": "maint/v0.25"
                 },
                 {
                     "type": "patch",
