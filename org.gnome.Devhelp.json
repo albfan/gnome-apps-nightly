@@ -25,7 +25,7 @@
     },
     "cleanup": ["/include", "/lib/pkgconfig",
                 "/share/pkgconfig", "/share/aclocal",
-                "/man", "/share/man"
+                "/man", "/share/man",
                 "*.la", "*.a"],
     "modules": [
         {
