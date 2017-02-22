@@ -285,7 +285,7 @@
                 },
                 {
                     "type": "file",
-                    "path": "build/flatpak/setuptools-makefile",
+                    "path": "setuptools-makefile",
                     "dest-filename": "Makefile"
                 }
             ]
