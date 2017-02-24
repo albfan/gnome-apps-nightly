@@ -71,15 +71,6 @@
             ]
         },
         {
-            "name": "libgsystem",
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "git://git.gnome.org/libgsystem.git"
-                }
-            ]
-        },
-        {
             "name": "ostree",
             "config-opts": [ "--disable-man" ],
             "cleanup": [ "/bin",
