@@ -67,16 +67,6 @@
             ]
         },
         {
-            "name": "libgsystem",
-            "sources": [
-                {
-                    "type": "git",
-                    "branch": "d606bec68ddfea78de4b03c3f3568afb71bdc1ce",
-                    "url": "git://git.gnome.org/libgsystem.git"
-                }
-            ]
-        },
-        {
             "name": "ostree",
             "config-opts": [ "--disable-man" ],
             "cleanup": [ "/bin", "/etc/grub.d", "/libexec" ],
@@ -151,6 +141,7 @@
         {
             "name": "python3-lxml",
             "no-autogen": true,
+            "ensure-writable": ["/lib/python*/site-packages/easy-install.pth"],
             "build-options": {
                 "cflags": "-I/usr/include",
                 "env": {
