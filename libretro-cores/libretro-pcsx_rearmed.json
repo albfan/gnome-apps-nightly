@@ -18,7 +18,6 @@
             "sources": [
                 {
                     "type": "git",
-                    "branch": "1493092e158f162a1bcd3bb9928f3dfb48593431",
                     "url": "https://github.com/libretro/pcsx_rearmed"
                 },
                 {
