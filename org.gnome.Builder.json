@@ -298,7 +298,7 @@
         },
         {
             "name": "gnome-builder",
-            "config-opts": [ "--enable-tracing", "--enable-debug" ],
+            "config-opts": [ "--enable-tracing", "--enable-debug", "--with-channel=flatpak-nightly" ],
             "sources": [
                 {
                     "type": "git",
