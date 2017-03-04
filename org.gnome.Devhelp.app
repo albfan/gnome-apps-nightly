@@ -1,2 +1,4 @@
 ID=org.gnome.Devhelp
-JSON=org.gnome.Devhelp.json
+JSON=data/org.gnome.Devhelp.json
+GITURL=git://git.gnome.org/devhelp
+GITBRANCH=gnome-3-22
