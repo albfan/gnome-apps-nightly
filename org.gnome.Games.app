@@ -1,3 +1,3 @@
 ID=org.gnome.Games
-JSON=org.gnome.Games.json
+JSON=flatpak/org.gnome.Games.json
 GITURL=git://git.gnome.org/gnome-games
