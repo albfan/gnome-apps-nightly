@@ -1,2 +1,3 @@
 ID=org.gnome.Dictionary
-JSON=org.gnome.Dictionary.json
+JSON=data/org.gnome.Dictionary.json
+GITURL=git://git.gnome.org/gnome-dictionary
