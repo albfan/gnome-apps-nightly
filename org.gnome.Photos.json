@@ -128,7 +128,7 @@
         },
         {
             "name": "libraw",
-            "config-opts": [ "--disable-static", "--enable-shared" ],
+            "config-opts": [ "--disable-examples", "--disable-static" ],
             "cleanup": [ "/bin", "/share/doc" ],
             "sources": [
                 {
