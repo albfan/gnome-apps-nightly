@@ -127,7 +127,6 @@
             ]
         },
         {
-            /* required for gegl:raw-load operation */
             "name": "libraw",
             "config-opts": [ "--disable-static", "--enable-shared" ],
             "cleanup": [ "/bin", "/share/doc" ],
@@ -149,7 +148,6 @@
             ]
         },
         {
-            /* required by gexiv2 */
             "name": "exiv2",
             "cleanup": [ "/bin" ],
             "sources": [
