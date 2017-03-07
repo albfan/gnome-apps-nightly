@@ -122,26 +122,6 @@
             ]
         },
         {
-            /* required for gegl:jp2-load operation */
-            "name": "jasper",
-            "config-opts": [ "--disable-static", "--enable-shared" ],
-            "cleanup": [ "/bin" ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://www.ece.uvic.ca/~frodo/jasper/software/jasper-2.0.12.tar.gz",
-                    "sha256": "5b24faf5ed38670d6286e45ab7516b26458d05e7929b435afe569176765f4dda"
-                },
-                /* config.guess is too old to know about the ARM and
-                 * Aarch64 ABIs
-                 */
-                {
-                    "type": "shell",
-                    "commands": [ "autoreconf --verbose --force --install" ]
-                }
-            ]
-        },
-        {
             /* required for gegl:raw-load operation */
             "name": "libraw",
             "config-opts": [ "--disable-static", "--enable-shared" ],
@@ -256,8 +236,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-photos/3.22/gnome-photos-3.22.4.tar.xz",
-                    "sha256": "583aaec1c43493bd2bb3846dd29e34adde102cc9825f402d4a07cc04e572528d"
+                    "url": "https://download.gnome.org/sources/gnome-photos/3.22/gnome-photos-3.22.5.tar.xz",
+                    "sha256": "99a64bc95690c67d24d6db64c0ba1cdc2c2e1acbb3f2fa783fddaafd4a015b64"
                 }
             ]
         }
