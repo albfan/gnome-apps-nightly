@@ -79,8 +79,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://git.gnome.org/browse/librest/snapshot/librest-librest-0.7.12.tar.xz",
-                    "sha256": "570917e570e6e8bf55572eb04902d4cf3975c2629df9df96c21be2059d71dab9"
+                    "url": "https://download.gnome.org/sources/rest/0.8/rest-0.8.0.tar.xz",
+                    "sha256": "e7b89b200c1417073aef739e8a27ff2ab578056c27796ec74f5886a5e0dff647"
                 }
             ]
         },
