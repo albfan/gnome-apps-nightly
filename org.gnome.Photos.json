@@ -59,8 +59,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://ftp.gnome.org/pub/gimp/babl/0.1/babl-0.1.18.tar.bz2",
-                    "sha256": "483a495bc9fa68be624e27e72d2144ebfcbbf63e061eb986db1fb82b04b6fbf9"
+                    "url": "http://ftp.gnome.org/pub/gimp/babl/0.1/babl-0.1.24.tar.bz2",
+                    "sha256": "472bf1acdde5bf076e6d86f3004eea4e9b007b1377ab305ebddec99994f29d0b"
                 }
             ]
         },
@@ -71,8 +71,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://git.gnome.org/browse/librest/snapshot/librest-librest-0.7.12.tar.xz",
-                    "sha256": "570917e570e6e8bf55572eb04902d4cf3975c2629df9df96c21be2059d71dab9"
+                    "url": "https://download.gnome.org/sources/rest/0.8/rest-0.8.0.tar.xz",
+                    "sha256": "e7b89b200c1417073aef739e8a27ff2ab578056c27796ec74f5886a5e0dff647"
                 }
             ]
         },
@@ -83,8 +83,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-online-accounts/3.22/gnome-online-accounts-3.22.0.tar.xz",
-                    "sha256": "aacce93a71bf5e687a45ae0d00f31ea0625ddd8143235d6d8c64c4ec21bbfa33"
+                    "url": "https://download.gnome.org/sources/gnome-online-accounts/3.22/gnome-online-accounts-3.22.4.tar.xz",
+                    "sha256": "5415d6dd7babf1371f79ba4f6c031003c7d991aaaa784d58f42fd9b4792b09b9"
                 }
             ]
         },
@@ -116,8 +116,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/libgdata/0.17/libgdata-0.17.6.tar.xz",
-                    "sha256": "8b6a3ff1db23bd9e5ebbcc958b29b769a898f892eed4798222d562ba69df30b0"
+                    "url": "https://download.gnome.org/sources/libgdata/0.17/libgdata-0.17.7.tar.xz",
+                    "sha256": "8a663ef314a6d20b73c762072e0c1353fa7ec1ca3c2dee6fb85927cbda0d44fd"
                 }
             ]
         },
@@ -129,8 +129,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://www.ece.uvic.ca/~frodo/jasper/software/jasper-1.900.1.zip",
-                    "sha256": "6b905a9c2aca2e275544212666eefc4eb44d95d0a57e4305457b407fe63f9494"
+                    "url": "https://www.ece.uvic.ca/~frodo/jasper/software/jasper-2.0.12.tar.gz",
+                    "sha256": "5b24faf5ed38670d6286e45ab7516b26458d05e7929b435afe569176765f4dda"
                 },
                 /* config.guess is too old to know about the ARM and
                  * Aarch64 ABIs
@@ -149,8 +149,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://www.libraw.org/data/LibRaw-0.17.0.tar.gz",
-                    "sha256": "e643c20945d548aac1eaa1f5573bf74050e0f49ec6a53a6843dc2a2cfb647310"
+                    "url": "http://www.libraw.org/data/LibRaw-0.18.1.tar.gz",
+                    "sha256": "48228f733013a7a0cba08d1821438b983e698feeda7cbc3976ce46ceab07b899"
                 }
             ]
         },
@@ -160,8 +160,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://ftp.acc.umu.se/pub/gimp/gegl/0.3/gegl-0.3.8.tar.bz2",
-                    "sha256": "06ca9e67a59da026eb941b9d323269d7c19a922f1e478acdd3791a0eef8b229b"
+                    "url": "http://ftp.acc.umu.se/pub/gimp/gegl/0.3/gegl-0.3.14.tar.bz2",
+                    "sha256": "09f5e2e6899697641d4660e3e274aed696f5bacc96ba389ac77674ee1156590a"
                 }
             ]
         },
@@ -196,8 +196,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://ftp.gnome.org/pub/GNOME/sources/gexiv2/0.10/gexiv2-0.10.3.tar.xz",
-                    "sha256": "390cfb966197fa9f3f32200bc578d7c7f3560358c235e6419657206a362d3988"
+                    "url": "https://download.gnome.org/sources/gexiv2/0.10/gexiv2-0.10.4.tar.xz",
+                    "sha256": "ad8d31afdc0a1932cc44c4cfcea449497c0d0b445c0ad2f9735707b306e71ca4"
                 }
             ]
         },
@@ -207,8 +207,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-desktop/3.22/gnome-desktop-3.22.0.tar.xz",
-                    "sha256": "cff36ccd8d0a62177a4c1513ec70d13ead3b84fdc208ba54199cf7616f05644d"
+                    "url": "https://download.gnome.org/sources/gnome-desktop/3.22/gnome-desktop-3.22.2.tar.xz",
+                    "sha256": "51d7ebf7a6c359be14c3dd7a022213e931484653815eb10b0131bef4c8979e1c"
                 }
             ]
         },
@@ -218,8 +218,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/grilo/0.3/grilo-0.3.2.tar.xz",
-                    "sha256": "f26f684a5d76aea8dbce136750bc67d2170b36575f109292fbb78ae99ec87f5b"
+                    "url": "https://download.gnome.org/sources/grilo/0.3/grilo-0.3.3.tar.xz",
+                    "sha256": "5c874222c7bdf42490cd56765a593c41407247706bb1f24a1bd5d007aa38a0e3"
                 }
             ]
         },
@@ -229,8 +229,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/grilo-plugins/0.3/grilo-plugins-0.3.3.tar.xz",
-                    "sha256": "fe66e887847fef9c361bcb7226047c43b2bc22b172aaf22afd5534947cc85b9c"
+                    "url": "https://download.gnome.org/sources/grilo-plugins/0.3/grilo-plugins-0.3.4.tar.xz",
+                    "sha256": "990282a518968c52f6a67b96c6b708e236a59da1c7c920ed45e6316ab49ddeb5"
                 }
             ]
         },
@@ -244,8 +244,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/tracker/1.10/tracker-1.10.0.tar.xz",
-                    "sha256": "df95b4a1e7de442f66d1097b725dd3cdd739862f491453fc7d7b1f88181a12fb"
+                    "url": "https://download.gnome.org/sources/tracker/1.10/tracker-1.10.5.tar.xz",
+                    "sha256": "3b8488f0e372054790f2fd4207227c5b15425bf1ab829d76928ac0b32de9c5b7"
                 }
             ]
         },
@@ -256,8 +256,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-photos/3.22/gnome-photos-3.22.0.tar.xz",
-                    "sha256": "568329142855901a85f325ee014176e24f735b15a496842bcd31f5cb2615ba53"
+                    "url": "https://download.gnome.org/sources/gnome-photos/3.22/gnome-photos-3.22.4.tar.xz",
+                    "sha256": "583aaec1c43493bd2bb3846dd29e34adde102cc9825f402d4a07cc04e572528d"
                 }
             ]
         }
