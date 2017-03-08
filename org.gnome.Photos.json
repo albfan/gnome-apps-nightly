@@ -129,7 +129,7 @@
         {
             "name": "libraw",
             "config-opts": [ "--disable-examples", "--disable-static" ],
-            "cleanup": [ "/bin", "/share/doc" ],
+            "cleanup": [ "/share/doc" ],
             "sources": [
                 {
                     "type": "git",
