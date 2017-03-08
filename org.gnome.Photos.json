@@ -136,8 +136,18 @@
                     "url": "https://github.com/LibRaw/LibRaw.git"
                 },
                 {
-                    "type": "patch",
-                    "path": "libraw-autogen.patch"
+                    "type": "file",
+                    "url": "http://www.cybercom.net/~dcoffin/dcraw/dcraw.c"
+                },
+                {
+                    "type": "shell",
+                    "commands": [
+                        "make -f Makefile.devel regenerate",
+                        "autoreconf --force --install",
+                        "rm -rf dcraw/*",
+                        "rm -f dcraw/.gdbinit",
+                        "mv dcraw.c dcraw"
+                    ]
                 },
                 {
                     "type": "patch",
