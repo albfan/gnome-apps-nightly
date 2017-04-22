@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Calendar",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.22",
+    "runtime-version": "3.24",
     "branch": "stable",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-calendar",
@@ -42,8 +42,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-online-accounts/3.22/gnome-online-accounts-3.22.2.tar.xz",
-                    "sha256": "af56ca5af542592546f4569c05198ff39645e76ffc8de3c96120db8d0246433a"
+                    "url": "https://download.gnome.org/sources/gnome-online-accounts/3.24/gnome-online-accounts-3.24.0.tar.xz",
+                    "sha256": "9e2f780e061641dfd692cc82269b0cac6cce73c74ce2d8a0a5e80889ed07c17b"
                 }
             ]
         },
@@ -69,8 +69,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/evolution-data-server/3.22/evolution-data-server-3.22.2.tar.xz",
-                    "sha256": "c0498e0968a60c3e42d5f72416c6e36752bced73bb530aa028dbd0008efd2167"
+                    "url": "https://download.gnome.org/sources/evolution-data-server/3.24/evolution-data-server-3.24.1.tar.xz",
+                    "sha256": "6344b8035e2bcc5cd404bc86e6d874cdf54102a8948aa0ab7b4e717d328881b0"
                 }
             ]
         },
@@ -79,8 +79,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-calendar/3.22/gnome-calendar-3.22.2.tar.xz",
-                    "sha256": "3096278eb4ccfee326262808451111236023bba8e0c9d332c319fb05cfdc910f"
+                    "url": "https://download.gnome.org/sources/gnome-calendar/3.24/gnome-calendar-3.24.0.tar.xz",
+                    "sha256": "8a21f51e10ce491e4a492e21c47de29a9ba1b568f4e2fd6f4e33616609d413d0"
                 }
             ]
         }
