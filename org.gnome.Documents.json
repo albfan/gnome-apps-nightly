@@ -133,7 +133,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/evince/3.22/evince-3.24.0.tar.xz",
+                    "url": "https://download.gnome.org/sources/evince/3.24/evince-3.24.0.tar.xz",
                     "sha256": "043895af7bbd6f1b57f9ab8778e78cf9c0af5dfcc347eaa94a17bf864c04dc8f"
                 }
             ]
