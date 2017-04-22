@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Evince",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.22",
+    "runtime-version": "3.24",
     "branch": "stable",
     "sdk": "org.gnome.Sdk",
     "command": "evince",
@@ -63,8 +63,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/evince/3.22/evince-3.22.0.tar.xz",
-                    "sha256": "22ebabf890057e8b43020ffdebdbb57d6a586beba031838f0f0c8a596c479d46"
+                    "url": "https://download.gnome.org/sources/evince/3.24/evince-3.24.0.tar.xz",
+                    "sha256": "043895af7bbd6f1b57f9ab8778e78cf9c0af5dfcc347eaa94a17bf864c04dc8f"
                 }
             ]
         }
