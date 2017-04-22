@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.eog",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.22",
+    "runtime-version": "3.24",
     "branch": "stable",
     "sdk": "org.gnome.Sdk",
     "command": "eog",
@@ -38,8 +38,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-desktop/3.22/gnome-desktop-3.22.0.tar.xz",
-                    "sha256": "cff36ccd8d0a62177a4c1513ec70d13ead3b84fdc208ba54199cf7616f05644d"
+                    "url": "https://download.gnome.org/sources/gnome-desktop/3.24/gnome-desktop-3.24.1.tar.xz",
+                    "sha256": "de09b7d38b4baccae48c527778480731cb12f00848758be186971b2b4acc45ab"
                 }
             ]
         },
@@ -60,8 +60,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/eog/3.20/eog-3.20.4.tar.xz",
-                    "sha256": "968774cc07ea0d3c27ac552dc0f1d51cf682b9036d342b447688a208f31a5be3"
+                    "url": "https://download.gnome.org/sources/eog/3.24/eog-3.24.1.tar.xz",
+                    "sha256": "f51ee116e2c159fac1719e003a32e1cb6cbff51914fd1f6409f461a790ff27e7"
                 }
             ]
         },
