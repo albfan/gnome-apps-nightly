@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Calculator",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.22",
+    "runtime-version": "3.24",
     "branch": "stable",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-calculator",
@@ -45,8 +45,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gtksourceview/3.20/gtksourceview-3.20.4.tar.xz",
-                    "sha256": "7a0e6ac95ff3862bd8ef77a40e95a942939e73cb407f2eb67af600d7ce533d01"
+                    "url": "https://download.gnome.org/sources/gtksourceview/3.24/gtksourceview-3.24.1.tar.xz",
+                    "sha256": "717b6fe884ff9f25158bdc36f463790c608ada9f5e2e6f4dc7f1467c83711c25"
                 }
             ]
         },
@@ -55,8 +55,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-calculator/3.22/gnome-calculator-3.22.0.tar.xz",
-                    "sha256": "fa0f192fc0cad43a8520d4015780ce008d9fc6201bd2dd6dc06365ba45458728"
+                    "url": "https://download.gnome.org/sources/gnome-calculator/3.24/gnome-calculator-3.24.0.tar.xz",
+                    "sha256": "44758ac719edd20067381073de3c643f842308f26da039412b1978a415202d10"
                 }
             ]
         }
