@@ -71,8 +71,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/tracker/1.10/tracker-1.10.0.tar.xz",
-                    "sha256": "df95b4a1e7de442f66d1097b725dd3cdd739862f491453fc7d7b1f88181a12fb"
+                    "url": "https://download.gnome.org/sources/tracker/1.12/tracker-1.12.0.tar.xz",
+                    "sha256": "83193dd8c05e3e8b05fa8f1cfb80964fa78f7aeb86f3302fa4be6ec7e6ff596f"
                 }
             ]
         },
@@ -82,8 +82,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-desktop/3.22/gnome-desktop-3.22.0.tar.xz",
-                    "sha256": "cff36ccd8d0a62177a4c1513ec70d13ead3b84fdc208ba54199cf7616f05644d"
+                    "url": "https://download.gnome.org/sources/gnome-desktop/3.24/gnome-desktop-3.24.1.tar.xz",
+                    "sha256": "de09b7d38b4baccae48c527778480731cb12f00848758be186971b2b4acc45ab"
                 }
             ]
         },
@@ -92,8 +92,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-autoar/0.1/gnome-autoar-0.1.1.tar.xz",
-                    "sha256": "f65cb810b562dc038ced739fbf59739fd5df1a8e848636e21f363ded9f349ac9"
+                    "url": "https://download.gnome.org/sources/gnome-autoar/0.2/gnome-autoar-0.2.2.tar.xz",
+                    "sha256": "e1fe2c06eed30305c38bf0939c72b0e51b4716658e2663a0cf4a4bf57874ca62"
                 }
             ]
         },
@@ -110,8 +110,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/nautilus/3.22/nautilus-3.22.0.tar.xz",
-                    "sha256": "7671d9cf9df0321f5ad03abce03ab35ab6d643e1b3392a84f3c1d7c23ce29816"
+                    "url": "https://download.gnome.org/sources/nautilus/3.24/nautilus-3.24.0.tar.xz",
+                    "sha256": "8a499247caff3c02437c0ad955f043e675a056912d8553d9c9783c762f5dbbbd"
                 }
             ]
         }
