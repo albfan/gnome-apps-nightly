@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.gedit",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.22",
+    "runtime-version": "3.24",
     "branch": "stable",
     "sdk": "org.gnome.Sdk",
     "command": "gedit",
@@ -48,8 +48,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gtksourceview/3.22/gtksourceview-3.22.0.tar.xz",
-                    "sha256": "70657f48732427984dce6cc812bdd3f2b701c0a49e0a0a08889705b3dadcf8e5"
+                    "url": "https://download.gnome.org/sources/gtksourceview/3.24/gtksourceview-3.24.1.tar.xz",
+                    "sha256": "717b6fe884ff9f25158bdc36f463790c608ada9f5e2e6f4dc7f1467c83711c25"
                 }
             ]
         },
@@ -58,8 +58,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gspell/1.2/gspell-1.2.0.tar.xz",
-                    "sha256": "6aa550b91e13c0073ec0dfef21b6eef730186912392e11128216b90519a3443f"
+                    "url": "https://download.gnome.org/sources/gspell/1.4/gspell-1.4.1.tar.xz",
+                    "sha256": "442f88fecd7f9e00a6a9d0af2d762744dd3c119217ff11d6739500f75b0f10be"
                 }
             ]
         },
