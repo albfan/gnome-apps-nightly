@@ -66,7 +66,7 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.gnome.org/sources/libgit2-glib/0.24/libgit2-glib-0.25.0.tar.xz",
+                "url": "https://download.gnome.org/sources/libgit2-glib/0.25/libgit2-glib-0.25.0.tar.xz",
                 "sha256": "4a256b9acfb93ea70d37213a4083e2310e59b05f2c7595242fe3c239327bc565"
             }
         ]
