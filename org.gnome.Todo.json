@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Todo",
     "runtime": "org.gnome.Platform",
-     "runtime-version": "3.22",
+    "runtime-version": "3.24",
     "branch": "stable",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-todo",
@@ -42,8 +42,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-online-accounts/3.22/gnome-online-accounts-3.22.0.tar.xz",
-                    "sha256": "aacce93a71bf5e687a45ae0d00f31ea0625ddd8143235d6d8c64c4ec21bbfa33"
+                    "url": "https://download.gnome.org/sources/gnome-online-accounts/3.24/gnome-online-accounts-3.24.0.tar.xz",
+                    "sha256": "9e2f780e061641dfd692cc82269b0cac6cce73c74ce2d8a0a5e80889ed07c17b"
                 }
             ]
         },
@@ -63,14 +63,31 @@
         },
         {
             "name": "evolution-data-server",
-            "cleanup": ["/lib/evolution-data-server/*-backends", "/libexec", "/share/dbus-1/services" ],
-            "config-opts": ["--disable-google-auth",
-                            "--disable-uoa", "--disable-google", "--disable-weather" ],
+            "cleanup": [
+                "/lib/cmake",
+                "/lib/evolution-data-server/*-backends",
+                "/libexec",
+                "/share/dbus-1/services"
+            ],
+            "cmake": true,
+            "config-opts": [
+                "-DENABLE_GTK=ON",
+                "-DENABLE_GOOGLE_AUTH=OFF",
+                "-DENABLE_UOA=OFF",
+                "-DENABLE_GOOGLE=OFF",
+                "-DENABLE_VALA_BINDINGS=ON",
+                "-DENABLE_WEATHER=OFF",
+                "-DWITH_OPENLDAP=OFF",
+                "-DENABLE_INTROSPECTION=ON",
+                "-DENABLE_INSTALLED_TESTS=OFF",
+                "-DENABLE_GTK_DOC=OFF",
+                "-DENABLE_EXAMPLES=OFF"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/evolution-data-server/3.22/evolution-data-server-3.22.0.tar.xz",
-                    "sha256": "8653a9a28980e661e8b91ba335dae04a0553e12611ad155bc48fb3fb3c98653d"
+                    "url": "https://download.gnome.org/sources/evolution-data-server/3.24/evolution-data-server-3.24.1.tar.xz",
+                    "sha256": "6344b8035e2bcc5cd404bc86e6d874cdf54102a8948aa0ab7b4e717d328881b0"
                 }
             ]
         },
