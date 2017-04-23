@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Maps",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.22",
+    "runtime-version": "3.24",
     "branch": "stable",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-maps",
@@ -42,6 +42,7 @@
                 "/share/vala",
                 "*.la", "*.a"],
     "modules": [
+
         {
             "name": "libical",
             "cleanup": [ "/lib/cmake"],
@@ -67,8 +68,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/libgee/0.18/libgee-0.18.0.tar.xz",
-                    "sha256": "4ad99ef937d071b4883c061df40bfe233f7649d50c354cf81235f180b4244399"
+                    "url": "https://download.gnome.org/sources/libgee/0.20/libgee-0.20.0.tar.xz",
+                    "sha256": "21308ba3ed77646dda2e724c0e8d5a2f8d101fb05e078975a532d7887223c2bb"
                 }
             ]
         },
@@ -78,8 +79,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-online-accounts/3.22/gnome-online-accounts-3.22.0.tar.xz",
-                    "sha256": "aacce93a71bf5e687a45ae0d00f31ea0625ddd8143235d6d8c64c4ec21bbfa33"
+                    "url": "https://download.gnome.org/sources/gnome-online-accounts/3.24/gnome-online-accounts-3.24.0.tar.xz",
+                    "sha256": "9e2f780e061641dfd692cc82269b0cac6cce73c74ce2d8a0a5e80889ed07c17b"
                 }
             ]
         },
@@ -88,8 +89,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/geocode-glib/3.20/geocode-glib-3.20.1.tar.xz",
-                    "sha256": "669fc832cabf8cc2f0fc4194a8fa464cdb9c03ebf9aca5353d7cf935ba8637a2"
+                    "url": "https://download.gnome.org/sources/geocode-glib/3.23/geocode-glib-3.23.90.tar.xz",
+                    "sha256": "f6b536a3b225ede73ef0592ad841640c5cde2a0e4bf3f416c893e8262b1dd7dc"
                 }
             ]
         },
@@ -99,20 +100,38 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/libgweather/3.20/libgweather-3.20.3.tar.xz",
-                    "sha256": "fb6bc5b64ef5db3dc40a9798f072b83ebcafe7ff5af472aaee70600619b56c0b"
+                    "url": "https://download.gnome.org/sources/libgweather/3.24/libgweather-3.24.0.tar.xz",
+                    "sha256": "1089b932205085add19e5e1b63361c0cff1a2c46a67ab2dded6dd2ca87bdfa3d"
                 }
             ]
         },
         {
             "name": "evolution-data-server",
-            "cleanup": ["/lib/evolution-data-server/*-backends", "/libexec", "/share/dbus-1/services" ],
-            "config-opts": ["--disable-gtk", "--disable-google-auth", "--disable-uoa", "--disable-google", "--enable-vala-bindings" ],
+            "cleanup": [
+                "/lib/cmake",
+                "/lib/evolution-data-server/*-backends",
+                "/libexec",
+                "/share/dbus-1/services"
+            ],
+            "cmake": true,
+            "config-opts": [
+                "-DENABLE_GTK=ON",
+                "-DENABLE_GOOGLE_AUTH=OFF",
+                "-DENABLE_UOA=OFF",
+                "-DENABLE_GOOGLE=OFF",
+                "-DENABLE_VALA_BINDINGS=ON",
+                "-DENABLE_WEATHER=OFF",
+                "-DWITH_OPENLDAP=OFF",
+                "-DENABLE_INTROSPECTION=ON",
+                "-DENABLE_INSTALLED_TESTS=OFF",
+                "-DENABLE_GTK_DOC=OFF",
+                "-DENABLE_EXAMPLES=OFF"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/evolution-data-server/3.22/evolution-data-server-3.22.0.tar.xz",
-                    "sha256": "8653a9a28980e661e8b91ba335dae04a0553e12611ad155bc48fb3fb3c98653d"
+                    "url": "https://download.gnome.org/sources/evolution-data-server/3.24/evolution-data-server-3.24.1.tar.xz",
+                    "sha256": "6344b8035e2bcc5cd404bc86e6d874cdf54102a8948aa0ab7b4e717d328881b0"
                 }
             ]
         },
@@ -168,8 +187,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-maps/3.22/gnome-maps-3.22.0.tar.xz",
-                    "sha256": "7ce98a683f1c38d3ba1b5d68c7d05add9f9366774678fd50fdeeda6987163c39"
+                    "url": "https://download.gnome.org/sources/gnome-maps/3.24/gnome-maps-3.24.1.tar.xz",
+                    "sha256": "eec390d56410d9cda9b1aed85016bbe24f5eaf7e1e0db7c45d5716c2112a4a0d"
                 }
             ]
         }
