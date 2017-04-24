@@ -107,8 +107,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-todo/3.22/gnome-todo-3.22.1.tar.xz",
-                    "sha256": "cb80f64f5edeeac7b221146d2203bd1bebc49d275b7a41e7a5418f409d9c74af"
+                    "url": "https://download.gnome.org/sources/gnome-todo/3.24/gnome-todo-3.24.0.tar.xz",
+                    "sha256": "078f8ab6572f5631fd63314e6e500f667f4577945a326f2d1e632dbdf45a8e7e"
                 }
             ]
         }
