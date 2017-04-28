@@ -145,6 +145,7 @@
             "builddir": true,
             "config-opts": ["-Denable-packagekit=false",
                             "-Denable-flatpak=true",
+                            "-Denable-firmware=false",
                             "-Denable-man=false",
                             "-Denable-polkit=false"],
             "post-install": [
