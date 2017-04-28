@@ -80,7 +80,8 @@
         },
         {
             "name": "epiphany",
-            "config-opts": ["--disable-Werror"],
+            "buildsystem": "meson",
+            "builddir": true,
             "sources": [
                 {
                     "type": "git",
