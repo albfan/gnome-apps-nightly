@@ -140,10 +140,12 @@
         },
         {
             "name": "gnome-software",
-            "config-opts": ["--disable-packagekit",
-                            "--enable-xdg-app",
-                            "--disable-man",
-                            "--disable-polkit"],
+            "buildsystem": "meson",
+            "builddir": true,
+            "config-opts": ["-Denable-packagekit=false",
+                            "-Denable-flatpak=true",
+                            "-Denable-man=false",
+                            "-Denable-polkit=false"],
             "post-install": [
                 /* Rename service file so dbus activation works */
                 "mv /app/share/dbus-1/services/org.gnome.Software.service /app/share/dbus-1/services/org.gnome.Software.XdgApp.service",
