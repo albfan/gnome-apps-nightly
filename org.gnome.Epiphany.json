@@ -5,8 +5,6 @@
     "branch": "stable",
     "sdk": "org.gnome.Sdk",
     "command": "epiphany",
-    "rename-appdata-file": "epiphany.appdata.xml",
-    "rename-desktop-file": "epiphany.desktop",
     "tags": [],
     "finish-args": [
         /* X11 + XShm access */
