@@ -76,8 +76,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-desktop/3.24/gnome-desktop-3.24.1.tar.xz",
-                    "sha256": "de09b7d38b4baccae48c527778480731cb12f00848758be186971b2b4acc45ab"
+                    "url": "https://download.gnome.org/sources/gnome-desktop/3.24/gnome-desktop-3.24.2.tar.xz",
+                    "sha256": "8fa1de66a6a75963bffc79b01a60434c71237d44c51beca09c0f714a032d785e"
                 }
             ]
         },
@@ -86,8 +86,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/epiphany/3.24/epiphany-3.24.1.tar.xz",
-                    "sha256": "21255f8459eb80fc6e011fc6cac8fa61bb939d626117989495eeaeac994d89dc"
+                    "url": "https://download.gnome.org/sources/epiphany/3.24/epiphany-3.24.2.tar.xz",
+                    "sha256": "5abc0d0c60591df5236ac9b8979dc9f7d9acbb8ad0902b4772d2b7beea81c58d"
                 }
             ]
         }
