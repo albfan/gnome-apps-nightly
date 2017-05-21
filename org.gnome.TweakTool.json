@@ -33,18 +33,16 @@
     "modules": [
         {
             "name": "pycairo",
+            "buildsystem": "simple",
+            "build-commands": [
+                "python2 ./setup.py build",
+                "python2 ./setup.py install --prefix=/app"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://cairographics.org/releases/py2cairo-1.10.0.tar.bz2",
-                    "sha256": "d30439f06c2ec1a39e27464c6c828b6eface3b22ee17b2de05dc409e429a7431"
-                },
-                {
-                    "type": "shell",
-                    "commands": [
-                        "touch ChangeLog",
-                        "autoreconf -i"
-                    ]
+                    "url": "https://github.com/pygobject/pycairo/releases/download/v1.12.0/pycairo-1.12.0.tar.gz",
+                    "sha256": "243c351d7abcef41ac1fa984d2c753f3d065336a0fcf4c20fafb191b23423095"
                 }
             ]
         },
