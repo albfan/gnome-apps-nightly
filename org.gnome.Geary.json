@@ -93,6 +93,10 @@
                     "type": "archive",
                     "url": "http://webkitgtk.org/releases/webkitgtk-2.4.11.tar.xz",
                     "sha256": "588aea051bfbacced27fdfe0335a957dca839ebe36aa548df39c7bbafdb65bf7"
+                },
+                {
+                    "type": "patch",
+                    "path": "webkitgtk3-Fix-the-build-with-newer-GCC.patch"
                 }
             ]
         },
