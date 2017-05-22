@@ -105,7 +105,7 @@
             "sources": [
                 {
                    "type": "archive",
-                    "url": "https://download.gnome.org/sources/tracker/1.10/tracker-1.12.0.tar.xz",
+                    "url": "https://download.gnome.org/sources/tracker/1.12/tracker-1.12.0.tar.xz",
                     "sha256": "83193dd8c05e3e8b05fa8f1cfb80964fa78f7aeb86f3302fa4be6ec7e6ff596f"
                 }
             ]
