@@ -1,3 +1,3 @@
 ID=org.gnome.Polari
-JSON=flatpak/org.gnome.Polari-unstable.json
+JSON=flatpak/org.gnome.Polari.json
 GITURL=git://git.gnome.org/polari
