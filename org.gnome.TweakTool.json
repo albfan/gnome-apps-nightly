@@ -32,33 +32,6 @@
     ],
     "modules": [
         {
-            "name": "pycairo",
-            "buildsystem": "simple",
-            "build-commands": [
-                "python2 ./setup.py build",
-                "python2 ./setup.py install --prefix=/app"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://github.com/pygobject/pycairo/releases/download/v1.12.0/pycairo-1.12.0.tar.gz",
-                    "sha256": "243c351d7abcef41ac1fa984d2c753f3d065336a0fcf4c20fafb191b23423095"
-                }
-            ]
-        },
-        {
-            "name": "pygobject",
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "git://git.gnome.org/pygobject"
-                }
-            ],
-            "config-opts": [
-                "--with-python=python2"
-            ]
-        },
-        {
             "name": "gnome-desktop",
             "sources": [
                 {
