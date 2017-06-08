@@ -69,6 +69,8 @@
         },
         {
             "name": "gnome-tweak-tool",
+            "buildsystem": "meson",
+            "builddir": true,
             "sources": [
                 {
                     "type": "git",
