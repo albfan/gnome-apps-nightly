@@ -125,7 +125,8 @@
             "cleanup": [ "/share/GConf", "/share/help" ],
             "config-opts": [ "--disable-nautilus", "--disable-viewer",
                              "--disable-previewer", "--disable-dbus",
-                             "--disable-browser-plugin", "--enable-introspection" ],
+                             "--disable-browser-plugin", "--enable-introspection",
+                             "--disable-comics" ],
             "sources": [
                 {
                     "type": "git",
