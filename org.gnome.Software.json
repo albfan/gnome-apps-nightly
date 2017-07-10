@@ -146,7 +146,11 @@
             "builddir": true,
             "config-opts": ["-Denable-packagekit=false",
                             "-Denable-flatpak=true",
-                            "-Denable-firmware=false",
+                            "-Denable-fwupd=false",
+                            "-Denable-rpm=false",
+                            "-Denable-ubuntu-reviews=false",
+                            "-Denable-gudev=false",
+                            "-Denable-snap=false",
                             "-Denable-man=false",
                             "-Denable-polkit=false"],
             "post-install": [
