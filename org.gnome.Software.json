@@ -49,7 +49,7 @@
             "name": "appstream-glib",
             "config-opts": ["--disable-builder",
                             "--with-bashcompletiondir=/app/share/bash-completion/completions",
-                            "--disable-gtk-doc", "--disable-man", "--disable-dep11"],
+                            "--disable-gtk-doc", "--disable-man", "--disable-dep11", "--disable-stemmer"],
             "cleanup": [ "/share/installed-tests",
                          "/share/gettext",
                          "/share/aclocal" ],
