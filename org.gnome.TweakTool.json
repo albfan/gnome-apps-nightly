@@ -6,7 +6,7 @@
     "command": "gnome-tweak-tool",
     "tags": ["nightly"],
     "copy-icon": true,
-    "rename-icon": "gnome-tweak-tool",
+    "rename-icon": "gnome-tweaks",
     "rename-desktop-file": "gnome-tweak-tool.desktop",
     "desktop-file-name-prefix": "(Nightly) ",
     "finish-args": [
