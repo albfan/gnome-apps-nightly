@@ -3,10 +3,10 @@
     "runtime": "org.gnome.Platform",
     "runtime-version": "master",
     "sdk": "org.gnome.Sdk",
-    "command": "gnome-tweak-tool",
+    "command": "gnome-tweaks",
     "tags": ["nightly"],
     "copy-icon": true,
-    "rename-icon": "gnome-tweaks",
+    "rename-icon": "gnome-tweak-tool",
     "rename-desktop-file": "gnome-tweak-tool.desktop",
     "desktop-file-name-prefix": "(Nightly) ",
     "finish-args": [
