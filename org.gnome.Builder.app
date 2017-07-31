@@ -1,3 +1,3 @@
 ID=org.gnome.Builder
 JSON=org.gnome.Builder.json
-GITURL=git://git.gnome.org/gnome-builder
+GITURL=https://git.gnome.org/browse/gnome-builder

@@ -36,7 +36,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/gnome-desktop"
+                    "url": "https://git.gnome.org/browse/gnome-desktop"
                 }
             ]
         },
@@ -47,7 +47,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/gnome-tweak-tool"
+                    "url": "https://git.gnome.org/browse/gnome-tweak-tool"
                 },
                 {
                     "type": "patch",

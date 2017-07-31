@@ -50,7 +50,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/libpeas"
+                    "url": "https://git.gnome.org/browse/libpeas"
                 }
             ]
         },
@@ -59,7 +59,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/gmime"
+                    "url": "https://git.gnome.org/browse/gmime"
                 }
             ],
             "cleanup": [ "/include", "/share/vala" ]
@@ -74,7 +74,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/totem-pl-parser"
+                    "url": "https://git.gnome.org/browse/totem-pl-parser"
                 }
             ],
             "cleanup": [ "/include" ]
@@ -84,7 +84,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/rhythmbox"
+                    "url": "https://git.gnome.org/browse/rhythmbox"
                 }
             ]
         }

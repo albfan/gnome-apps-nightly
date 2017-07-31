@@ -1,3 +1,3 @@
 ID=org.gnome.chess
 JSON=org.gnome.chess.json
-GITURL=git://git.gnome.org/gnome-chess
+GITURL=https://git.gnome.org/browse/gnome-chess

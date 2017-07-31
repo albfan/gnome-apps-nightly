@@ -29,7 +29,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/dconf-editor"
+                    "url": "https://git.gnome.org/browse/dconf-editor"
                 }
             ]
         }

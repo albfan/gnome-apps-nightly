@@ -37,7 +37,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/gnome-desktop"
+                    "url": "https://git.gnome.org/browse/gnome-desktop"
                 }
             ]
         },
@@ -47,7 +47,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/libgrss"
+                    "url": "https://git.gnome.org/browse/libgrss"
                 }
             ]
         },
@@ -63,7 +63,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/tracker"
+                    "url": "https://git.gnome.org/browse/tracker"
                 }
             ]
         },
@@ -73,7 +73,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/gnome-news"
+                    "url": "https://git.gnome.org/browse/gnome-news"
                 }
             ]
         }

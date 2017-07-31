@@ -1,3 +1,3 @@
 ID=org.gnome.Nautilus
 JSON=org.gnome.Nautilus.json
-GITURL=git://git.gnome.org/nautilus
+GITURL=https://git.gnome.org/browse/nautilus

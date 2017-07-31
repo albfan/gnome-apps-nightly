@@ -32,7 +32,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/gnome-desktop"
+                    "url": "https://git.gnome.org/browse/gnome-desktop"
                 }
             ]
         },
@@ -41,7 +41,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/gnome-characters"
+                    "url": "https://git.gnome.org/browse/gnome-characters"
                 }
             ]
         }

@@ -55,7 +55,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/gtksourceview",
+                    "url": "https://git.gnome.org/browse/gtksourceview",
                     "branch": "gnome-3-24"
                 }
             ]
@@ -65,7 +65,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/gnome-calculator"
+                    "url": "https://git.gnome.org/browse/gnome-calculator"
                 }
             ]
         }

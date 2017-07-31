@@ -63,7 +63,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/evince"
+                    "url": "https://git.gnome.org/browse/evince"
                 }
             ]
         }

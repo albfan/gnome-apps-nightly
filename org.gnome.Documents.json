@@ -42,7 +42,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/gnome-online-accounts"
+                    "url": "https://git.gnome.org/browse/gnome-online-accounts"
                 }
             ]
         },
@@ -52,7 +52,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/gnome-desktop"
+                    "url": "https://git.gnome.org/browse/gnome-desktop"
                 }
             ]
         },
@@ -72,7 +72,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/libgdata"
+                    "url": "https://git.gnome.org/browse/libgdata"
                 }
             ]
         },
@@ -92,7 +92,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/libzapojit"
+                    "url": "https://git.gnome.org/browse/libzapojit"
                 }
             ]
         },
@@ -130,7 +130,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/evince"
+                    "url": "https://git.gnome.org/browse/evince"
                 }
             ]
         },
@@ -146,7 +146,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/tracker"
+                    "url": "https://git.gnome.org/browse/tracker"
                 }
             ]
         },
@@ -155,7 +155,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/libgepub"
+                    "url": "https://git.gnome.org/browse/libgepub"
                 }
             ]
         },
@@ -165,7 +165,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/gnome-documents"
+                    "url": "https://git.gnome.org/browse/gnome-documents"
                 }
             ]
         }

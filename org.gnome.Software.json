@@ -66,7 +66,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/libgsystem"
+                    "url": "https://git.gnome.org/browse/libgsystem"
                 }
             ]
         },
@@ -116,7 +116,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://github.com/flatpak/flatpak"
+                    "url": "https://github.com/flatpak/flatpak"
                 }
             ]
         },
@@ -126,7 +126,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/gnome-desktop"
+                    "url": "https://git.gnome.org/browse/gnome-desktop"
                 }
             ]
         },
@@ -162,7 +162,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/gnome-software"
+                    "url": "https://git.gnome.org/browse/gnome-software"
                 },
                 {
                     "type": "patch",

@@ -37,7 +37,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/libpeas"
+                    "url": "https://git.gnome.org/browse/libpeas"
                 }
             ]
         },
@@ -48,7 +48,7 @@
                 {
                     "type": "git",
                     "branch": "gnome-3-24",
-                    "url": "git://git.gnome.org/gtksourceview"
+                    "url": "https://git.gnome.org/browse/gtksourceview"
                 }
             ]
         },
@@ -57,7 +57,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/gspell"
+                    "url": "https://git.gnome.org/browse/gspell"
                 }
             ]
         },
@@ -66,7 +66,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/gedit"
+                    "url": "https://git.gnome.org/browse/gedit"
                 }
             ]
         }

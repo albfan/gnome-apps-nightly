@@ -1,3 +1,3 @@
 ID=org.gnome.Totem
 JSON=flatpak/org.gnome.Totem.json
-GITURL=git://git.gnome.org/totem
+GITURL=https://git.gnome.org/browse/totem

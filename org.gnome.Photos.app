@@ -1,3 +1,3 @@
 ID=org.gnome.Photos
 JSON=flatpak/org.gnome.Photos.json
-GITURL=git://git.gnome.org/gnome-photos
+GITURL=https://git.gnome.org/browse/gnome-photos

@@ -42,7 +42,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/gnome-online-accounts"
+                    "url": "https://git.gnome.org/browse/gnome-online-accounts"
                 }
             ]
         },
@@ -85,7 +85,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/evolution-data-server"
+                    "url": "https://git.gnome.org/browse/evolution-data-server"
                 }
             ]
         },
@@ -95,7 +95,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/libpeas"
+                    "url": "https://git.gnome.org/browse/libpeas"
                 }
             ]
         },
@@ -104,7 +104,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/gnome-todo"
+                    "url": "https://git.gnome.org/browse/gnome-todo"
                 }
             ]
         }

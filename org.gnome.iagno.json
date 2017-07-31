@@ -38,7 +38,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "git://git.gnome.org/iagno"
+                    "url": "https://git.gnome.org/browse/iagno"
                 }
             ]
         }

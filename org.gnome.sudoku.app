@@ -1,3 +1,3 @@
 ID=org.gnome.sudoku
 JSON=org.gnome.sudoku.json
-GITURL=git://git.gnome.org/gnome-sudoku
+GITURL=https://git.gnome.org/browse/gnome-sudoku
