@@ -161,7 +161,8 @@
                             "-Denable-gudev=false",
                             "-Denable-snap=false",
                             "-Denable-man=false",
-                            "-Denable-polkit=false"],
+                            "-Denable-polkit=false",
+                            "-Denable-valgrind=false"],
             "post-install": [
                 /* Rename service file so dbus activation works */
                 "mv /app/share/dbus-1/services/org.gnome.Software.service /app/share/dbus-1/services/org.gnome.Software.XdgApp.service",
