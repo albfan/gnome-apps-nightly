@@ -3,7 +3,7 @@
     "runtime": "org.gnome.Platform",
     "runtime-version": "master",
     "sdk": "org.gnome.Sdk",
-    "command": "gnome-tweaks",
+    "command": "gnome-tweak-tool",
     "tags": ["nightly"],
     "copy-icon": true,
     "rename-icon": "gnome-tweak-tool",
