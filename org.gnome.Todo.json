@@ -100,6 +100,16 @@
             ]
         },
         {
+            "name": "rest",
+            "sources": [
+                {
+                    "type": "git",
+                    "branch": "librest-0-7",
+                    "url": "https://git.gnome.org/browse/librest"
+                }
+            ]
+        },
+        {
             "name": "gnome-todo",
             "sources": [
                 {
