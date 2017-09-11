@@ -79,6 +79,18 @@
             ]
         },
         {
+            "name": "libdazzle",
+            "config-opts": [ "--libdir=/app/lib" ],
+            "buildsystem": "meson",
+            "builddir": true,
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://git.gnome.org/browse/libdazzle"
+                }
+            ]
+        },
+        {
             "name": "epiphany",
             "buildsystem": "meson",
             "builddir": true,
