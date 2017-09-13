@@ -22,4 +22,4 @@ if [ x$GITURL != x ]; then
 fi
 
 echo ========== Building $ID ================
-flatpak-builder --force-clean --ccache --require-changes --repo=repo --subject="Build of ${ID}, `date`" ${EXPORT_ARGS-} ${GIT_ARGS-} "$@" app $JSON
+flatpak-builder --force-clean  --require-changes --repo=repo --subject="Build of ${ID}, `date`" ${EXPORT_ARGS-} ${GIT_ARGS-} "$@" app $JSON
