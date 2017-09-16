@@ -1,4 +1,4 @@
 ID=org.gnome.Games
 JSON=flatpak/org.gnome.Games.json
 GITURL=git://git.gnome.org/gnome-games
-GITBRANCH=gnome-3-24
+GITBRANCH=gnome-3-26
