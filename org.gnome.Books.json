@@ -171,6 +171,7 @@
         },
         {
             "name": "gnome-books",
+            "buildsystem": "meson",
             "config-opts": [ "--disable-documentation"],
             "sources": [
                 {

@@ -161,6 +161,7 @@
         },
         {
             "name": "gnome-documents",
+            "buildsystem": "meson",
             "config-opts": [ "--disable-documentation"],
             "sources": [
                 {
