@@ -1,7 +1,9 @@
 {
     "app-id": "org.gnome.Geary",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "master",
+    /* Build against 3.22 for the moment to work around Bug 777706
+    "runtime-version": "master", */
+    "runtime-version": "3.22",
     "sdk": "org.gnome.Sdk",
     "command": "geary",
     "tags": ["nightly"],
