@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.bijiben",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.24",
+    "runtime-version": "3.26",
     "branch": "stable",
     "sdk": "org.gnome.Sdk",
     "command": "bijiben",
@@ -45,8 +45,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-online-accounts/3.24/gnome-online-accounts-3.24.0.tar.xz",
-                    "sha256": "9e2f780e061641dfd692cc82269b0cac6cce73c74ce2d8a0a5e80889ed07c17b"
+                    "url": "https://download.gnome.org/sources/gnome-online-accounts/3.26/gnome-online-accounts-3.26.0.tar.xz",
+                    "sha256": "5cab736751c19efca762c0459e3358255d6662a6f4f27728cd02ea7b024e52ac"
                 }
             ]
         },
@@ -59,8 +59,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/libical/libical/releases/download/v1.0.1/libical-1.0.1.tar.gz",
-                    "sha256": "089ce3c42d97fbd7a5d4b3c70adbdd82115dd306349c1f5c46a8fb3f8c949592"
+                    "url": "https://github.com/libical/libical/releases/download/v2.0.0/libical-2.0.0.tar.gz",
+                    "sha256": "654c11f759c19237be39f6ad401d917e5a05f36f1736385ed958e60cf21456da"
                 }
             ]
         },
@@ -89,8 +89,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/evolution-data-server/3.24/evolution-data-server-3.24.1.tar.xz",
-                    "sha256": "6344b8035e2bcc5cd404bc86e6d874cdf54102a8948aa0ab7b4e717d328881b0"
+                    "url": "https://download.gnome.org/sources/evolution-data-server/3.26/evolution-data-server-3.26.1.tar.xz",
+                    "sha256": "ea207a3abd5e7bb8ccaa88741de7715a128083efdf8296af2c3a2fb8d072a4b3"
                 }
             ]
         },
@@ -111,34 +111,12 @@
             ]
         },
         {
-            "name": "webkitgtk3",
-            "build-options" : {
-                "arch" : {
-		    /* Following tricks to build on aarch64 from webkitgtk3.spec */
-                    "aarch64" : {
-			"cflags": "-DENABLE_YARR_JIT=0 -fno-delete-null-pointer-checks",
-			"cxxflags": "-DENABLE_YARR_JIT=0 -fno-delete-null-pointer-checks",
-                        "config-opts" : [
-                            "--disable-jit"
-                        ]
-                    }
-                }
-            },
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "http://webkitgtk.org/releases/webkitgtk-2.4.11.tar.xz",
-                    "sha256": "588aea051bfbacced27fdfe0335a957dca839ebe36aa548df39c7bbafdb65bf7"
-                }
-            ]
-        },
-        {
             "name": "bijiben",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/bijiben/3.21/bijiben-3.21.2.tar.xz",
-                    "sha256": "d7f05abd82da837d8d48d9f7acc6035a289d934c722fc89870d17007ba158e0d"
+                    "url": "https://download.gnome.org/sources/bijiben/3.26/bijiben-3.26.1.tar.xz",
+                    "sha256": "4f5bc9f5b86162038f24f4a02a659500f294b6811de8e77ed61a3bd6ec20d499"
                 }
             ]
         }
