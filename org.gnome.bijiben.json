@@ -105,7 +105,8 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://git.gnome.org/browse/tracker"
+                    "url": "https://git.gnome.org/browse/tracker",
+                    "branch": "tracker-1.12"
                 }
             ]
         },
