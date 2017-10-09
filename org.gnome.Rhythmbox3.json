@@ -85,10 +85,6 @@
                 {
                     "type": "git",
                     "url": "https://git.gnome.org/browse/rhythmbox"
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-fmradio-Fix-build-with-GStreamer-master.patch"
                 }
             ]
         }
