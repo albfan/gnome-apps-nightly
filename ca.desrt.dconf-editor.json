@@ -5,9 +5,6 @@
     "sdk": "org.gnome.Sdk",
     "command": "dconf-editor",
     "tags": ["nightly"],
-    "copy-icon": true,
-    "rename-icon": "ca.desrt.dconf-editor",
-
     "desktop-file-name-prefix": "(Nightly) ",
     "finish-args": [
         /* X11 + XShm access */
