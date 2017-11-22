@@ -1,3 +1,3 @@
 ID=org.gnome.Nautilus
-JSON=org.gnome.Nautilus.json
+JSON=build-aux/flatpak/org.gnome.Nautilus.json
 GITURL=https://gitlab.gnome.org/GNOME/nautilus.git
