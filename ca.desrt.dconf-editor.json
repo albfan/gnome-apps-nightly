@@ -15,6 +15,7 @@
 
         /* dconf */
         "--filesystem=/usr/share/glib-2.0/schemas:ro",
+        "--filesystem=xdg-data/glib-2.0/schemas:ro",
         "--filesystem=xdg-run/dconf", "--filesystem=~/.config/dconf:rw",
         "--talk-name=ca.desrt.dconf", "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
     ],
