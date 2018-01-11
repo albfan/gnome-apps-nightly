@@ -54,6 +54,9 @@
         },
         {
             "name": "eog",
+            "buildsystem": "meson",
+            "builddir": true,
+            "config-opts": [ "--libdir=/app/lib" ],
             "sources": [
                 {
                     "type": "git",
