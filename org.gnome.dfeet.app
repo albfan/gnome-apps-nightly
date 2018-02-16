@@ -1,3 +1,3 @@
-ID=org.gnome.d-feet
-JSON=org.gnome.d-feet.json
+ID=org.gnome.dfeet
+JSON=org.gnome.dfeet.json
 GITURL=https://gitlab.gnome.org/GNOME/d-feet.git
