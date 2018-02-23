@@ -152,10 +152,10 @@
         },
         {
             "name": "libgepub",
+            "buildsystem": "meson",
             "sources": [
                 {
                     "type": "git",
-                    "buildsystem": "meson",
                     "url": "https://gitlab.gnome.org/GNOME/libgepub.git"
                 }
             ]
