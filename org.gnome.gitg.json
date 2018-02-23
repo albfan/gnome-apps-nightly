@@ -63,10 +63,10 @@
       },
       {
         "name": "libgit2-glib",
+        "buildsystem": "meson",
         "sources": [
             {
                 "type": "git",
-                "buildsystem": "meson",
                 "url": "https://git.gnome.org/browse/libgit2-glib"
             }
         ]
