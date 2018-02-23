@@ -66,6 +66,7 @@
         "sources": [
             {
                 "type": "git",
+                "buildsystem": "meson",
                 "url": "https://git.gnome.org/browse/libgit2-glib"
             }
         ]
