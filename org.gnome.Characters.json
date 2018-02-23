@@ -41,7 +41,8 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://git.gnome.org/browse/gnome-characters"
+                    "buildsystem": "meson",
+                    "url": "https://gitlab.gnome.org/GNOME/gnome-characters.git"
                 }
             ]
         }
