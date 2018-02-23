@@ -38,10 +38,10 @@
         },
         {
             "name": "gnome-characters",
+            "buildsystem": "meson",
             "sources": [
                 {
                     "type": "git",
-                    "buildsystem": "meson",
                     "url": "https://gitlab.gnome.org/GNOME/gnome-characters.git"
                 }
             ]
