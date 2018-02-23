@@ -156,7 +156,8 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://git.gnome.org/browse/libgepub"
+                    "buildsystem": "meson",
+                    "url": "https://gitlab.gnome.org/GNOME/libgepub.git"
                 }
             ]
         },
