@@ -1,13 +1,10 @@
 {
-    "app-id": "org.gnome.TweakTool",
+    "app-id": "org.gnome.tweaks",
     "runtime": "org.gnome.Platform",
     "runtime-version": "master",
     "sdk": "org.gnome.Sdk",
-    "command": "gnome-tweak-tool",
+    "command": "gnome-tweaks",
     "tags": ["nightly"],
-    "copy-icon": true,
-    "rename-icon": "gnome-tweak-tool",
-    "rename-desktop-file": "gnome-tweak-tool.desktop",
     "desktop-file-name-prefix": "(Nightly) ",
     "finish-args": [
         /* X11 + XShm access */
@@ -41,13 +38,13 @@
             ]
         },
         {
-            "name": "gnome-tweak-tool",
+            "name": "gnome-tweaks",
             "buildsystem": "meson",
             "builddir": true,
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://git.gnome.org/browse/gnome-tweak-tool"
+                    "url": "https://gitlab.gnome.org/GNOME/gnome-tweaks.git"
                 },
                 {
                     "type": "patch",
