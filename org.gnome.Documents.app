@@ -1,2 +1,3 @@
 ID=org.gnome.Documents
-JSON=org.gnome.Documents.json
+JSON=flatpak/org.gnome.Documents.json
+GITURL=https://git.gnome.org/browse/gnome-documents
