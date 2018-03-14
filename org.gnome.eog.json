@@ -53,6 +53,16 @@
             ]
         },
         {
+            "name": "exempi",
+            "cmake": true,
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://anongit.freedesktop.org/git/exempi.git"
+                }
+            ]
+        },
+        {
             "name": "eog",
             "buildsystem": "meson",
             "builddir": true,
