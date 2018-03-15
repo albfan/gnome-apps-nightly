@@ -54,7 +54,6 @@
         },
         {
             "name": "exempi",
-            "cmake": true,
             "sources": [
                 {
                     "type": "git",
