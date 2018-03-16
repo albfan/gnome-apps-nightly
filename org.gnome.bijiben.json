@@ -112,6 +112,7 @@
         },
         {
             "name": "bijiben",
+            "buildsystem": "meson",
             "sources": [
                 {
                     "type": "git",
