@@ -38,7 +38,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://git.gnome.org/browse/gnome-desktop"
+                    "url": "https://gitlab.gnome.org/GNOME/gnome-desktop.git"
                 }
             ]
         },
@@ -48,7 +48,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://git.gnome.org/browse/libpeas"
+                    "url": "https://gitlab.gnome.org/GNOME/libpeas.git"
                 }
             ]
         },
@@ -69,7 +69,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://git.gnome.org/browse/eog"
+                    "url": "https://gitlab.gnome.org/GNOME/eog.git"
                 }
             ]
         },
@@ -78,7 +78,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://git.gnome.org/browse/eog-plugins"
+                    "url": "https://gitlab.gnome.org/GNOME/eog-plugins.git"
                 }
             ]
         }

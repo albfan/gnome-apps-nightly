@@ -67,7 +67,7 @@
         "sources": [
             {
                 "type": "git",
-                "url": "https://git.gnome.org/browse/libgit2-glib"
+                "url": "https://gitlab.gnome.org/GNOME/libgit2-glib.git"
             }
         ]
       },
@@ -77,7 +77,7 @@
         "sources": [
             {
                 "type": "git",
-                "url": "https://git.gnome.org/browse/libpeas"
+                "url": "https://gitlab.gnome.org/GNOME/libpeas.git"
             }
         ]
       },
@@ -92,7 +92,7 @@
         "sources": [
             {
                 "type": "git",
-                "url": "https://git.gnome.org/browse/libgee"
+                "url": "https://gitlab.gnome.org/GNOME/libgee.git"
             }
         ]
       },
@@ -112,7 +112,7 @@
             {
                 "type": "git",
                 "branch": "gnome-3-24",
-                "url": "https://git.gnome.org/browse/gtksourceview"
+                "url": "https://gitlab.gnome.org/GNOME/gtksourceview.git"
             }
         ]
       },
@@ -121,7 +121,7 @@
         "sources": [
             {
                 "type": "git",
-                "url": "https://git.gnome.org/browse/gitg"
+                "url": "https://gitlab.gnome.org/GNOME/gitg.git"
             }
         ]
       }

@@ -67,7 +67,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://git.gnome.org/browse/libgsystem"
+                    "url": "https://gitlab.gnome.org/GNOME/libgsystem.git"
                 }
             ]
         },
@@ -135,7 +135,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://git.gnome.org/browse/gnome-desktop"
+                    "url": "https://gitlab.gnome.org/GNOME/gnome-desktop.git"
                 }
             ]
         },
