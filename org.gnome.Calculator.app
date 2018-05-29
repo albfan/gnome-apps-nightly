@@ -1,3 +1,3 @@
 ID=org.gnome.Calculator
 JSON=org.gnome.Calculator.json
-GITURL=https://git.gnome.org/browse/gnome-calculator
+GITURL=https://gitlab.gnome.org/GNOME/gnome-calculator.git
