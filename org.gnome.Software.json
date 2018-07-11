@@ -62,16 +62,6 @@
             ]
         },
         {
-            /* README: needed for ostree */
-            "name": "libgsystem",
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/libgsystem.git"
-                }
-            ]
-        },
-        {
             /* README: needed for flatpak and fuse */
             "name": "libfuse",
             "cleanup": [ "/bin" ],
