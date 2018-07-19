@@ -38,6 +38,7 @@
         },
         {
             "name": "gnome-characters",
+            "buildsystem": "meson",
             "sources": [
                 {
                     "type": "git",
