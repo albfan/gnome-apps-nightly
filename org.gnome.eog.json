@@ -54,6 +54,9 @@
         },
         {
             "name": "exempi",
+            "config-opts": [
+                "--disable-unittest"
+            ],
             "sources": [
                 {
                     "type": "git",
