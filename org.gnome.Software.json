@@ -155,7 +155,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://git.gnome.org/browse/gspell"
+                    "url": "https://gitlab.gnome.org/GNOME/gspell.git"
                 }
             ]
         },
