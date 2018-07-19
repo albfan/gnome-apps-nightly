@@ -48,9 +48,18 @@
     "modules": [
         {
             "name": "appstream-glib",
-            "config-opts": ["--disable-builder",
-                            "--with-bashcompletiondir=/app/share/bash-completion/completions",
-                            "--disable-gtk-doc", "--disable-man", "--disable-dep11", "--disable-stemmer"],
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Ddep11=false",
+                "-Dbuilder=false",
+                "-Drpm=true",
+                "-Dalpm=false",
+                "-Dfonts=true",
+                "-Dstemmer=false",
+                "-Dman=false",
+                "-Dgtk-doc=false",
+                "-Dintrospection=true"
+            ],
             "cleanup": [ "/share/installed-tests",
                          "/share/gettext",
                          "/share/aclocal" ],
