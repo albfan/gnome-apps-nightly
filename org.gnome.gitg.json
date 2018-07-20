@@ -20,7 +20,7 @@
         "--talk-name=ca.desrt.dconf", "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
         /* We need access to auth agents */
         "--talk-name=org.freedesktop.secrets",
-	"--filesystem=xdg-run/keyring"
+        "--filesystem=xdg-run/keyring"
     ],
     "build-options" : {
         "cflags": "-O2 -g",
@@ -37,7 +37,7 @@
     "modules": [
       {
         "name": "libssh2",
-        "cmake": true,
+        "buildsystem": "cmake",
         "config-opts": [ "-DCMAKE_INSTALL_LIBDIR:PATH=/app/lib",
                          "-DBUILD_SHARED_LIBS:BOOL=ON" ],
         "sources": [
@@ -50,7 +50,7 @@
       },
       {
         "name": "libgit2",
-        "cmake": true,
+        "buildsystem": "cmake",
         "config-opts": [ "-DBUILD_SHARED_LIBS:BOOL=ON",
                          "-DTHREADSAFE=ON" ],
         "sources": [
