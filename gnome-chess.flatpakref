@@ -1,6 +1,6 @@
 [Flatpak Ref]
 Title=GNOME Chess
-Name=org.gnome.chess
+Name=org.gnome.Chess
 Branch=master
 Url=https://sdk.gnome.org/nightly/repo-apps/
 IsRuntime=False
