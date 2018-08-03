@@ -1,3 +1,3 @@
 ID=org.gnome.BoxesDevel
-JSON=build-aux/flatpak/org.gnome.Boxes.json
-GITURL=https://gitlab.gnome.org/GNOME/boxes.git
+JSON=build-aux/flatpak/org.gnome.BoxesDevel.json
+GITURL=https://gitlab.gnome.org/GNOME/gnome-boxes.git
