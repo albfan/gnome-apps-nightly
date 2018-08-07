@@ -1,6 +1,6 @@
 [Flatpak Ref]
 Title=GNOME Notes
-Name=org.gnome.bijiben
+Name=org.gnome.Notes
 Branch=master
 Url=https://sdk.gnome.org/nightly/repo-apps/
 IsRuntime=False
