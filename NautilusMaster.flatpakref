@@ -1,6 +1,6 @@
 [Flatpak Ref]
 Title=Nautilus
-Name=org.gnome.NautilusDevel
+Name=org.gnome.NautilusMaster
 Branch=master
 Url=https://sdk.gnome.org/nightly/repo-apps/
 IsRuntime=False
