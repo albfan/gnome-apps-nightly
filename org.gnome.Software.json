@@ -140,7 +140,7 @@
             ]
         },
         {
-            "name" : "enchant",
+            "name" : "enchant1",
             "cleanup" : [
                 "/bin"
             ],
@@ -163,7 +163,7 @@
             ]
         },
         {
-            "name": "enchant",
+            "name": "enchant2",
             "cleanup": [ "/include", "/lib/pkgconfig", "*.la", "/share" ],
             "sources": [
                 {
