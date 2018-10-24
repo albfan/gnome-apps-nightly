@@ -183,6 +183,16 @@
             ]
         },
         {
+            "name": "xmlb",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/hughsie/libxmlb.git"
+                }
+            ]
+        },
+        {
             "name": "gnome-software",
             "buildsystem": "meson",
             "builddir": true,
