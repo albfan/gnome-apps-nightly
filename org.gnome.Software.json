@@ -140,40 +140,6 @@
             ]
         },
         {
-            "name" : "enchant1",
-            "cleanup" : [
-                "/bin"
-            ],
-            "sources" : [
-                {
-                    "type" : "archive",
-                    "url" : "https://github.com/AbiWord/enchant/releases/download/enchant-1-6-1/enchant-1.6.1.tar.gz",
-                    "sha256" : "bef0d9c0fef2e4e8746956b68e4d6c6641f6b85bd2908d91731efb68eba9e3f5"
-                }
-            ]
-        },
-        {
-            "name": "gtkspell3",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "http://gtkspell.sourceforge.net/download/gtkspell3-3.0.7.tar.gz",
-                    "sha256": "13f2e6d3e2554cc24253ef592074b28c117db33b7a4465c98c69a3e0a4fa3cc2"
-                }
-            ]
-        },
-        {
-            "name": "enchant2",
-            "cleanup": [ "/include", "/lib/pkgconfig", "*.la", "/share" ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://github.com/AbiWord/enchant/releases/download/v2.2.3/enchant-2.2.3.tar.gz",
-                    "sha256": "abd8e915675cff54c0d4da5029d95c528362266557c61c7149d53fa069b8076d"
-                }
-            ]
-        },
-        {
             "name": "gspell",
             "sources": [
                 {
