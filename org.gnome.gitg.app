@@ -1,3 +1,3 @@
 ID=org.gnome.gitg
-JSON=org.gnome.Gitg.json
+JSON=org.gnome.gitg.json
 GITURL=https://gitlab.gnome.org/GNOME/gitg.git
